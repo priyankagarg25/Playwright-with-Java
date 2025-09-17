@@ -1,0 +1,9 @@
+<suite name="Cucumber Suite" parallel="tests" thread-count="4">
+    <test name="Cucumber Tests">
+        <parameter name="cucumber.filter.tags" value="@login"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testrunner.TestRunner"/>
+        </classes>
+    </test>
+</suite>

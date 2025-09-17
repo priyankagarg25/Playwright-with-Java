@@ -1,0 +1,990 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Playwright-Cucumber Automation</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 16, 2025 06:30:59 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Thread:20</a><a class="dropdown-item" href="#">Thread:24</a><a class="dropdown-item" href="#">Thread:23</a><a class="dropdown-item" href="#">Thread:22</a><a class="dropdown-item" href="#">Thread:21</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">chrome</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="11"
+          author="Thread:22"
+          tag="chrome"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "username_Empty" [chrome]</p>
+            <p class="text-sm">
+              <span>6:30:59 pm</span> / <span>00:01:14:713</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "username_Empty" [chrome]</h5>
+<span class='badge badge-success'>09.16.2025 6:30:59 pm</span>
+<span class='badge badge-danger'>09.16.2025 6:32:14 pm</span>
+<span class='badge badge-default'>00:01:14:713</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Thread:22</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:39 pm</td>
+        <td>
+           user navigates to :baseurl
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:39 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027699235.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027699235.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:39 pm</td>
+        <td>
+           user click on : Login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:40 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027699822.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027699822.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:13 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027732203.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027732203.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:32:13 pm</td>
+        <td>
+          Scenario failed: Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "username_Empty"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:14 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027734398.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_username_Empty_1758027734398.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="14"
+          author="Thread:20"
+          tag="chrome"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify User is able to login via credential to the gemEcoSystem [chrome]</p>
+            <p class="text-sm">
+              <span>6:30:59 pm</span> / <span>00:01:14:706</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify User is able to login via credential to the gemEcoSystem [chrome]</h5>
+<span class='badge badge-success'>09.16.2025 6:30:59 pm</span>
+<span class='badge badge-danger'>09.16.2025 6:32:14 pm</span>
+<span class='badge badge-default'>00:01:14:706</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Thread:20</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:35 pm</td>
+        <td>
+           user navigates to :baseurl
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:39 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027699241.png' target='_blank'><img src='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027699241.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:39 pm</td>
+        <td>
+           user click on : Login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:40 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027699912.png' target='_blank'><img src='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027699912.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:12 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027732204.png' target='_blank'><img src='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027732204.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:32:13 pm</td>
+        <td>
+          Scenario failed: Verify User is able to login via credential to the gemEcoSystem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:14 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027734398.png' target='_blank'><img src='screenshots/Verify_User_is_able_to_login_via_credential_to_the_gemEcoSystem_1758027734398.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author="Thread:23"
+          tag="chrome"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "password_Empty" [chrome]</p>
+            <p class="text-sm">
+              <span>6:30:59 pm</span> / <span>00:01:09:885</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "password_Empty" [chrome]</h5>
+<span class='badge badge-success'>09.16.2025 6:30:59 pm</span>
+<span class='badge badge-danger'>09.16.2025 6:32:09 pm</span>
+<span class='badge badge-default'>00:01:09:885</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Thread:23</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:24 pm</td>
+        <td>
+           user navigates to :baseurl
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:29 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027688785.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027688785.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:32 pm</td>
+        <td>
+           user click on : Login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:36 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027695809.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027695809.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:09 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027729412.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027729412.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:32:09 pm</td>
+        <td>
+          Scenario failed: Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "password_Empty"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:09 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027729647.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_password_Empty_1758027729647.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author="Thread:24"
+          tag="chrome"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "both_Empty" [chrome]</p>
+            <p class="text-sm">
+              <span>6:30:59 pm</span> / <span>00:01:14:721</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "both_Empty" [chrome]</h5>
+<span class='badge badge-success'>09.16.2025 6:30:59 pm</span>
+<span class='badge badge-danger'>09.16.2025 6:32:14 pm</span>
+<span class='badge badge-default'>00:01:14:721</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Thread:24</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:32 pm</td>
+        <td>
+           user navigates to :baseurl
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:39 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027699229.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027699229.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:39 pm</td>
+        <td>
+           user click on : Login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:40 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027700044.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027700044.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:13 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027732200.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027732200.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:32:13 pm</td>
+        <td>
+          Scenario failed: Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "both_Empty"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:14 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027734398.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_empty_credential_to_the_gemEcoSystem_using_emptyField_both_Empty_1758027734398.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author="Thread:21"
+          tag="chrome"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify User is not able to login via incorrect user credential to the gemEcoSystem [chrome]</p>
+            <p class="text-sm">
+              <span>6:30:59 pm</span> / <span>00:01:09:873</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify User is not able to login via incorrect user credential to the gemEcoSystem [chrome]</h5>
+<span class='badge badge-success'>09.16.2025 6:30:59 pm</span>
+<span class='badge badge-danger'>09.16.2025 6:32:09 pm</span>
+<span class='badge badge-default'>00:01:09:873</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Thread:21</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:28 pm</td>
+        <td>
+           user navigates to :baseurl
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:29 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027688773.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027688773.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:32 pm</td>
+        <td>
+           user click on : Login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:31:36 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027695810.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027695810.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:09 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027729407.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027729407.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:32:09 pm</td>
+        <td>
+          Scenario failed: Verify User is not able to login via incorrect user credential to the gemEcoSystem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:32:09 pm</td>
+        <td>
+          <div style='display:flex; align-items:center; gap:12px; margin-top:10px;'><span style='font-weight:bold; color:#2a2a2a;'>Step:</span><a href='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027729642.png' target='_blank'><img src='screenshots/Verify_User_is_not_able_to_login_via_incorrect_user_credential_to_the_gemEcoSystem_1758027729642.png' height='90' width='150' style='margin-left:35px; border:1px solid #ccc; border-radius:4px; box-shadow:1px 1px 6px rgba(0,0,0,0.2);'/></a></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">chrome</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>chrome</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "username_Empty" [chrome]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Verify User is able to login via credential to the gemEcoSystem [chrome]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "password_Empty" [chrome]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "both_Empty" [chrome]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Verify User is not able to login via incorrect user credential to the gemEcoSystem [chrome]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">5</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Thread:20</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Thread:20</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Verify User is able to login via credential to the gemEcoSystem [chrome]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Thread:24</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Thread:24</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "both_Empty" [chrome]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Thread:23</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Thread:23</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "password_Empty" [chrome]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Thread:22</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Thread:22</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "username_Empty" [chrome]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Thread:21</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Thread:21</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:30:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Verify User is not able to login via incorrect user credential to the gemEcoSystem [chrome]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 16, 2025 06:30:59 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 16, 2025 06:32:17 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>5</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>5</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='14%'><b>5</b> events failed,
+<b data-tooltip='%'>30</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "username_Empty" [chrome]":74.713,"Verify User is able to login via credential to the gemEcoSystem [chrome]":74.706,"Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "password_Empty" [chrome]":69.885,"Verify User is not able to login via empty credential to the gemEcoSystem using emptyField "both_Empty" [chrome]":74.721,"Verify User is not able to login via incorrect user credential to the gemEcoSystem [chrome]":69.873
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Thread:20</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Thread:24</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Thread:23</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Thread:22</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Thread:21</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>chrome</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>User</td>
+<td>priyanka.bansal</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 5,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 5,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 30
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
